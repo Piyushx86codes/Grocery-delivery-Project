@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
-   <section className="relative overflow-hidden min-h-[540px] mb-10 rounded-3xl flex items-center">
+   <section className="relative overflow-hidden min-h-135 mb-10 rounded-3xl flex items-center">
 
     <img src={heroSectionData.hero_image}
     className="absolute inset-0 h-full w-full object-cover"/>
